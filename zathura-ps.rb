@@ -13,12 +13,12 @@ class ZathuraPs < Formula
   depends_on 'libspectre'
 
   patch :p0 do
-    url 'https://github.com/zegervdv/homebrew-zathura/raw/master/zathura-ps-Makefile.patch'
+    url 'https://github.com/darvelo/homebrew-zathura/raw/master/zathura-ps-Makefile.patch'
     sha256 "e726007906c015981945a973001eb36935f730a6d6032414593c2fdcef59ee89"
   end
 
   patch :p0 do
-    url 'https://github.com/zegervdv/homebrew-zathura/raw/master/zathura-ps-config.mk.patch'
+    url 'https://github.com/darvelo/homebrew-zathura/raw/master/zathura-ps-config.mk.patch'
     sha256 "c766cbe844d146b5d44571b2fe52c73fd897134f3b4763a0ceef3aa7548647e7"
   end
 

@@ -20,7 +20,7 @@ class Zathura < Formula
   depends_on "intltool"
 
   patch :p0 do
-    url 'https://github.com/zegervdv/homebrew-zathura/raw/1efa3c89cd454cac88729c7334f9ee46e254b299/zathura.h.patch'
+    url 'https://github.com/darvelo/homebrew-zathura/raw/1efa3c89cd454cac88729c7334f9ee46e254b299/zathura.h.patch'
     sha256 '07c3948280cbe4f757c6c86761845a637092a4e433f53be28362bec3f7fe4237'
   end
 

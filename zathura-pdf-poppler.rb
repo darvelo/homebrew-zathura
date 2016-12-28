@@ -15,12 +15,12 @@ class ZathuraPdfPoppler < Formula
 
   # Apply patches from http://stackoverflow.com/a/29460237
   patch :p0 do
-    url "https://raw.githubusercontent.com/zegervdv/homebrew-zathura/master/zathura-pdf-poppler-config.mk.diff"
+    url "https://raw.githubusercontent.com/darvelo/homebrew-zathura/master/zathura-pdf-poppler-config.mk.diff"
     sha256 "7acaaeeb5e75bf7cff864a850fc763d17a6a34dcbd3e11487d4d04a2904c8f49"
   end
 
   patch :p0 do
-    url "https://raw.githubusercontent.com/zegervdv/homebrew-zathura/master/zathura-pdf-poppler-Makefile.diff"
+    url "https://raw.githubusercontent.com/darvelo/homebrew-zathura/master/zathura-pdf-poppler-Makefile.diff"
     sha256 "a3ee7155707028806e1abb9e4bdf88bfc7bd71cebd10e6ac741285b8e26b0e05"
   end
 
